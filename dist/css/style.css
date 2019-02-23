@@ -3,8 +3,8 @@
   --primary-color: #91f5ad;
   --secondary-color: #745296;
   --overlay-color: #8b9eb7;
-  --menu-speed: 0.75s;
-  --animation-speed: 2s;
+  --menu-speed: 0.25s;
+  --animation-speed: 1s;
 }
 
 /* Base Elements */
@@ -110,7 +110,7 @@ img {
   display: inline-block;
   border-radius: 20px;
   margin: 2rem 0;
-  transition: all 0.3s ease-in;
+  transition: all 0.3s ease;
 }
 
 .btn:hover {

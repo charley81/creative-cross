@@ -1,7 +1,10 @@
 /* CSS Variables */
 :root {
-  --primary-color: rgb(0, 255, 89);
-  --secondary-color: rgb(188, 3, 129);
+  --primary-color: #91f5ad;
+  --secondary-color: #745296;
+  --overlay-color: #8b9eb7;
+  --menu-speed: 0.75s;
+  --animation-speed: 2s;
 }
 
 /* Base Elements */
@@ -102,17 +105,31 @@ img {
 
 .btn {
   background: transparent;
-  padding: 0.5rem 2rem;
-  border: none;
+  padding: 0.5rem 4rem;
+  border: 1px solid var(--primary-color);
   display: inline-block;
-  color: #fff;
-  border-radius: 5px;
+  border-radius: 20px;
   margin: 2rem 0;
   transition: all 0.3s ease-in;
-  outline-color: var(--primary-color);
 }
 
 .btn:hover {
   background: var(--primary-color);
   color: #fff;
 }
+
+/* Showcase */
+#showcase {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* About */
+/* Why */
+/* Start */
+/* Plans */
+/* Contact */
+/* Footer */

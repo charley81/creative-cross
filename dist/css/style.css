@@ -65,6 +65,11 @@ h3 {
   color: #333;
 }
 
+.bg-color {
+  background: var(--secondary-color);
+  color: #fff;
+}
+
 .text-primary {
   color: var(--primary-color);
 }
@@ -205,9 +210,46 @@ h3 {
   margin: 0 0.25rem;
   flex: 1;
   border-radius: 2px;
+  transition: all var(--animation-speed) ease;
+}
+
+#why .items .item:hover {
+  transform: translateY(-5px);
+  box-shadow: 1px 1px 10px 1px rgba(255, 255, 255, 0.4);
 }
 
 /* Start */
+#start {
+}
+#start .items {
+  display: flex;
+  height: 600px;
+}
+
+#start .items .item {
+  flex: 1 50%;
+}
+
+#start .items .item .btn {
+  color: #fff;
+}
+
+#start .items .item .btn:hover {
+  color: #333;
+}
+
+#start .items .start-content {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#start .items .start-image {
+  background: url("../img/building-image.jpg") no-repeat center center/cover;
+}
+
 /* Plans */
 /* Contact */
 /* Footer */

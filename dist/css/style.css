@@ -251,5 +251,25 @@ h3 {
 }
 
 /* Plans */
+
+#plans .items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#plans .items .item {
+  flex: 1;
+  margin: 0 0.25rem;
+  border-radius: 5px;
+}
+
+#plans .items .item ul li {
+  padding: 0.5rem 0;
+}
+
+#plans .item p {
+  margin: 0;
+}
 /* Contact */
 /* Footer */

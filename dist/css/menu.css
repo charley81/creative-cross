@@ -7,6 +7,11 @@
   padding: 1rem;
 }
 
+#navbar h3 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
 #navbar .toggler {
   position: absolute;
   top: 10px;
@@ -61,6 +66,10 @@
 /* Moves Line Down */
 #navbar .hamburger > div::after {
   top: 10px;
+}
+
+#navbar .toggler:checked + .hamburger {
+  background: var(--overlay-color);
 }
 
 /* Toggler Animation */
@@ -133,13 +142,19 @@
   color: #fff;
   font-size: 1.5rem;
   padding: 1rem;
+  transition: all var(--animation-speed) ease;
+}
+
+#navbar .menu > div > div > ul > li:hover {
+  transform: scale(1.1);
 }
 
 #navbar .menu > div > div > ul > li a {
   color: inherit;
-  transition: color var(--animation-speed) ease;
+  transition: all var(--animation-speed) ease;
 }
 
 #navbar .menu > div > div > ul > li a:hover {
   color: var(--primary-color);
+  letter-spacing: 10px;
 }

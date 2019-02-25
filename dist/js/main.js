@@ -25,3 +25,8 @@ window.addEventListener("scroll", function() {
     document.querySelector("#navbar .hamburger").style.border = "none";
   }
 });
+
+// Close Menu Overlay
+function closeNav() {
+  document.getElementById("navi-toggle").checked = false;
+}

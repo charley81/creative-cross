@@ -162,6 +162,29 @@ h3 {
   position: relative;
 }
 
+/* Showcase Animations */
+#showcase p {
+  animation: showcase-paragraph 1s forwards ease;
+  transform: translateY(-1200px);
+}
+
+#showcase h1 {
+  animation: showcase-heading 1s forwards ease 1s;
+  transform: translateX(-3000px);
+}
+
+/* Keyframes */
+@keyframes showcase-paragraph {
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes showcase-heading {
+  to {
+    transform: translateX(0);
+  }
+}
+
 #showcase .btn {
   color: #fff;
 }

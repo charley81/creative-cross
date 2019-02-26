@@ -31,8 +31,8 @@ function closeNav() {
   document.getElementById("navi-toggle").checked = false;
 }
 
-// Slide In Animation
-const items = document.querySelector("#contact .item");
+// Slide In Animation About Section
+const items = document.querySelectorAll("#about .items .item");
 
 const isInViewport = el => {
   const rect = el.getBoundingClientRect();

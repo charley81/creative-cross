@@ -1,12 +1,33 @@
+.logo {
+  display: none;
+}
+
 .container {
   padding: 1rem;
 }
 
-#about .items .item:hover {
-  box-shadow: none;
-  transform: none;
+.items {
+  padding: 1rem 0;
 }
 
-#about .about-content h3 {
+#why .items {
+  display: block;
+}
+
+#plans .items {
+  display: block;
+}
+
+#contact .items .item {
+  padding: 0;
+}
+
+section .m-heading {
+  margin: 1rem 0;
   font-size: 1rem;
+}
+
+section p {
+  margin: 0;
+  font-size: 0.9rem;
 }
